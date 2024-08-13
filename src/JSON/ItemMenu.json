@@ -1,0 +1,42 @@
+[
+    {
+      "section": "Dashboard",
+      "items": [
+        {
+          "id": 1,
+          "icono": "estate",
+          "name": "Dashboard general"
+        },
+        {
+            "id": 2,
+            "icono": "university",
+            "name": "Banking"
+          }
+      ]
+    },
+    {
+      "section": "Apps",
+      "items": [
+        {
+          "id": 1,
+          "icono": "calendar-alt",
+          "name": "Calendario"
+        },
+        {
+          "id": 2,
+          "icono": "comments",
+          "name": "Chat"
+        },
+        {
+          "id": 3,
+          "icono": "folder-download",
+          "name": "Files"
+        },
+        {
+          "id": 4,
+          "icono": "cloud-sun-meatball",
+          "name": "Wheater App"
+        }
+      ]
+    }
+  ]

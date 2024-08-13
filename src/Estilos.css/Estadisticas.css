@@ -1,0 +1,143 @@
+.Card{
+    border: 1px solid #dddddd;
+    padding: 2%;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
+    transition: 0.8s;
+    animation: fadeInUp 1s ease-out;
+}
+
+.Card:hover{
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    scale: 1.01;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.Card:active{
+    box-shadow: none;
+    scale: 0.95;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.Card1{
+    padding: 0;
+    margin: 0;
+}
+.Cards{
+    display: flex;
+    gap: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    padding: 2%;
+}
+
+.Card__Numeros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Card___Fuente{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.animate-icon {
+    display: inline-block;
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  .animate-icon:hover {
+    animation: rotateAnimation 1s ease-in-out;
+  }
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+   
+    100% {
+      transform: rotate(360deg);
+    }
+  
+  }
+  
+  @keyframes slideInBounce {
+    0% {
+      transform: translateX(-100%);
+    }
+    60% {
+      transform: translateX(10%);
+    }
+    80% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .credit-card {
+    animation: slideInBounce 1s ease-out;
+    transition: 2s;
+  }
+  
+  .credit-card:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 5px 5px rgba(159, 122, 234, 0.7);
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .credit-card .date {
+    animation: fadeInUp 2s ease-out;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+ .FadeLeft{
+    animation: fadeInLeft 1s ease-out;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+
+ .FadeLeft:hover{
+    transform: translateX(10px);
+ }
+
+ .FadeRight{
+    animation: fadeInRight 2s ease-out;
+ }

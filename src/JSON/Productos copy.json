@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "icono": "adobe",
+      "name": "Adobe"
+    },
+    {
+      "id": 2,
+      "icono": "amazon",
+      "name": "Amazon"
+    },
+    {
+      "id": 3,
+      "icono": "apple",
+      "name": "Apple"
+    },
+    {
+      "id": 4,
+      "icono": "google",
+      "name": "Google"
+    },
+    {
+      "id": 5,
+      "icono": "windows",
+      "name": "Microsoft"
+    },
+    {
+      "id": 6,
+      "icono": "facebook",
+      "name": "Facebook"
+    },
+    {
+      "id": 7,
+      "icono": "adobe",
+      "name": "Adobe"
+    }
+  ]

@@ -1,0 +1,82 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 0;
+    width: 4%;
+    height: 100%; /* Ocupa el 100% de la altura de Dashboard */
+    background-color: #0b0c0b;
+    box-sizing: border-box;
+    
+}
+.uil{color: #fff; transition: 0.2s;}
+
+.Sidebar img{
+    max-width: 50%;
+}
+
+.uil-adjust-half{transition: 0.5s;}
+
+.uil-adjust-half:hover{
+    color: #ff0000;
+    transition: transform .3s ease-in-out;
+  
+    cursor: pointer;
+    animation: bellRing 0.9s;
+}
+.uil-adjust-half:active{
+transform: scale(0.85);
+}
+
+.Sidebar__logo{
+    cursor: pointer;
+  transition: transform 0.2s ease-in-out ;
+  animation: bellRing 3s infinite;
+}
+
+.Sidebar__logo:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out
+}
+
+@keyframes bellRing {
+    0%,
+    100% {
+      transform-origin: top;
+    }
+  
+    15% {
+      transform: rotateZ(5deg);
+    }
+  
+    30% {
+      transform: rotateZ(-5deg);
+    }
+  
+    45% {
+      transform: rotateZ(5deg);
+    }
+  
+    60% {
+      transform: rotateZ(-5deg);
+    }
+  
+    75% {
+      transform: rotateZ(2deg);
+    }
+
+    100% {
+        transform-origin: top;
+      }
+  }
+
+.custom-menu-item {
+  color: #fafafa !important; /* Cambia el color del texto */
+  padding: 16px;
+}
+
+.custom-menu-item .pi { 
+  color: #d91717 !important; /* Cambia el color de los íconos si lo deseas */
+}
+

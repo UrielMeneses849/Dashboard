@@ -1,0 +1,46 @@
+.Graficas{
+    width: 70%;
+    height: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    overflow-y:scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0% 1% 0;
+}
+
+/* ? Textos del Header */
+.Header{display: flex; width: 100%; justify-content: space-around; height: auto; padding: 2%; align-items: center; position: sticky;
+    top: 0; z-index: 100;   background-color: white; border-bottom: 1px solid #EDEDED;}
+
+.Header__Textos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Header__Perfil{
+    animation: fadeInLeft 2s ease-out;
+    display: flex;
+    gap: 5%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* ? Textos del Header */
+
+.card{
+   width: 100%;
+   height: 30vh;
+}
+
+.Graficos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    gap: 3%;
+    box-sizing: border-box;
+}

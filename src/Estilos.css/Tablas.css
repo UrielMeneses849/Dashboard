@@ -1,0 +1,11 @@
+.Tabla{
+    width: 100%;
+   height: auto;
+  
+}
+
+.Tablas{
+    width: 100%;
+    height: auto;
+    animation: fadeInUp 1s ease-out;
+}
